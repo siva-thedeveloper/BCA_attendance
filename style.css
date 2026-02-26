@@ -1,0 +1,50 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+}
+
+.bg {
+  background: url("images/background.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.login-box {
+  background: rgba(255,255,255,0.9);
+  width: 320px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 80px;
+  margin: 5px;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.present {
+  color: green;
+  font-weight: bold;
+}
+
+.absent {
+  color: red;
+  font-weight: bold;
+}
+
+.box {
+  width: 300px;
+  margin: auto;
+}
